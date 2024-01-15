@@ -1,0 +1,110 @@
+body {
+    background-color: wheat;
+}
+
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+h1 {
+    width: 50%;
+    padding: 10px;
+    position: relative;
+    top: -20px;
+    text-align: center;
+    margin: 0 auto;
+    border: none;
+    background-color: white;
+    border-radius: 1%;
+}
+
+.container {
+    width: 100%;
+    border: 3px double grey;
+    padding: 0px;
+    margin: 0 auto;
+    position: relative;
+    top: 500px;
+}
+
+input {
+    border: none;
+    padding: 10px;
+    width: 100%;
+}
+
+button,
+input[type="submit"] {
+    position: relative;
+    top: 20px;
+    margin: 2px;
+    padding: 10px;
+}
+
+.btn {
+    display: flex;
+    width: 100%;
+}
+
+#guess:hover {
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#reset:hover {
+    background-color: darkred;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#guess {
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#reset {
+    background-color: rgb(255, 100, 100);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.display {
+    padding: 20px;
+}
+
+/* Media Query for Mobile */
+@media screen and (max-width: 100px) {
+    body {
+        background-color: lightblue; /* Change background color for mobile */
+        width: 100%;
+    }
+
+    h1 {
+        width: 80%; /* Adjust width for better mobile layout */
+    }
+
+    .container {
+        top: 0; /* Adjust the position for mobile */
+    }
+
+    /* Add more mobile-specific styling here */
+}
+
+/* Media Query for Desktop */
+@media screen and (min-width: 769px) {
+    
+    body {
+    background-color: wheat; /* Change background color for mobile */
+    width: 100%;
+}
+
+}
